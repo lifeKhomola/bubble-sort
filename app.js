@@ -14,5 +14,5 @@ function bubbleSort(arry)
     }
     console.log(arry);
 }
-var arr = [234, 43, 55, 63,  5, 6, 235, 547];
+var arr = [2349, 43, 55, 63,  5, 6, 235, 547];
 console.log(bubbleSort(arr));
