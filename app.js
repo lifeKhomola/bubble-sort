@@ -1,18 +1,19 @@
 function bubbleSort(arry)
 {
-    for(let i = 0; i < arr.length; i++)
+    for(let i =0;i < arry.length;i++)
     {
-        for(let j = 0; j < ( arr.length - i -1 ); j++)
+        for(let k =0;k< (arry.length - i-1);k++)
         {
-            if(arr[j] > arr[j+1])
+            if(arry[j]> arry[j+1])
             {
-                let temp = arr[j];
-                arr[j] = arr[j + 1];
-                arr[j+1] = temp;
+                let temp = arry[j];
+                arry[j] = arry[j+1];
+                arry[j+1] = temp
+
             }
         }
     }
     console.log(arry);
 }
-var arr = [2349, 43, 55, 63,  5, 6, 235, 547];
+var arr = [2349, 43, 50, 63,  5, 6, 235, 547];
 console.log(bubbleSort(arr));
